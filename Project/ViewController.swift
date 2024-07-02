@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var textView: UILabel!
     
     override func viewDidLoad() {
